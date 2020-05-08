@@ -10,14 +10,14 @@ from aylienapiclient import textapi
 #input = raw_input
 
 
-ckey = "bnB8Af4GMWbIEShX6nc9Dxji9"
-csecret = "XsBtcKkfpwx5zc4nqz9p22BbqVzOIfpfAeNVUSJk4gGM84kT8p"
-atoken = "971667156797743104-A7qRg58JfcuWPK07OKgQaZSf6OpvLag"
-asecret = "KmTo1w3SSsEP2A8thSaCWe3IEDZPnF9c90UVQLQ8ldUnd"
+ckey = ""
+csecret = ""
+atoken = ""
+asecret = ""
 
 
-aid = "2d200ee8"
-akey = "d49f950f655bab611e1ddae7285c278f"
+aid = ""
+akey = ""
 
 auth = tweepy.OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
